@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Demostenes777/mongodb-drivers#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.15.5",
     "mocha": "^3.5.3",
     "mongoose": "^4.11.13",
