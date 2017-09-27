@@ -1,11 +1,13 @@
 const express = require('express');
 const routes = require('./routes/routes');
-const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const app = express();
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/drivers');
+if(process.env.NODE_ENV !== 'test') {
+  mongoose.connect('mongodb://localhost/drivers');
+}
 
 app.use(bodyParser.json());
 routes(app);

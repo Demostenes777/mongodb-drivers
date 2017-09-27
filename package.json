@@ -4,7 +4,7 @@
   "description": "Drivers project from the Udemy course \"The complete delevopers guide to MongoDB\"",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec mocha --recursive -R min"
+    "test": "set NODE_ENV=test&& nodemon --exec mocha --recursive -R min"
   },
   "repository": {
     "type": "git",
