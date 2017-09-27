@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-drivers",
+  "version": "1.0.0",
+  "description": "Drivers project from the Udemy course \"The complete delevopers guide to MongoDB\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demostenes777/mongodb-drivers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Demostenes777/mongodb-drivers/issues"
+  },
+  "homepage": "https://github.com/Demostenes777/mongodb-drivers#readme",
+  "dependencies": {
+    "express": "^4.15.5",
+    "mocha": "^3.5.3",
+    "mongoose": "^4.11.13"
+  }
+}
